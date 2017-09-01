@@ -6,11 +6,11 @@
      return (
             <nav className="container-fluid navbar navbar-inverse">
                 <div className="navbar-header">
-                <IndexLink className="navbar-brand" to="/" activeClassName="active">Pluralsight Administration</IndexLink>
+                <IndexLink className="navbar-brand" to="/" activeClassName="active">OTTI</IndexLink>
                 </div>
                 <ul className="nav navbar-nav">
                     <li><Link to="/about" activeClassName="active">About</Link></li>
-                    <li><Link to="/courses" activeClassName="active">Courses</Link></li>
+                    <li><Link to="/courses" activeClassName="active">Transfer Inventory</Link></li>
                 </ul>
                 <ul className="nav navbar-nav navbar-right">
                     <li>{loading && <span><LoadingDots interval={30} dots={100}/>Loading</span>} </li>
